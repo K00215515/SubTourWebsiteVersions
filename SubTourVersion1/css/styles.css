@@ -1,0 +1,66 @@
+header{
+    background-color: aqua; /*using this only for testing*/
+/*    margin-bottom: 10px;*/
+/*    width: 100;*/
+}
+.main-header{
+/*    height: 120px;*/
+/*
+    margin-bottom: 15px;
+    padding-bottom: 40px;
+*/
+/*    width: 100%;*/
+}
+div#page{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: antiquewhite; /*using this only for testing*/
+    text-align: center;
+    border-top: thick;
+    border-top-width: medium;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    margin-left: auto;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+h1{
+    font-family: 'Black Ops One';
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Black Ops One';
+    font-size: 25px;
+}
+
+/*
+@font-face{
+    font-family: 'blackops';
+    src: url(BlackOpsOne-Regular.tff) format('truetype';
+}
+h2{
+    font-family: blackops;
+}
+*/
+
