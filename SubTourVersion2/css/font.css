@@ -1,0 +1,7 @@
+@font-face{
+    font-family: 'blackops';
+    src: url(BlackOpsOne-Regular.tff) format('truetype');
+}
+h2{
+    font-family: blackops;
+}
