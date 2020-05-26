@@ -1,0 +1,338 @@
+header{
+    background-color: #515A6B; /*using this only for testing #E2FDF7*/ 
+    margin-top: -20px;
+    margin-left: -10px;
+/*    margin-bottom: 10px;*/
+    width: 102%;
+}
+#main-header{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    height: 100px;
+
+}
+
+button{
+    background-color: #B2B4CB;
+}
+
+.main-header img{
+    height: 180px;
+    width: 180px;
+/*
+    height: 120px;
+    width: 120px;
+*/
+    align-content: center;
+    margin-left: 44%;
+    margin-right: 50%;
+    margin-top: 5px;
+    margin-bottom: px;
+    padding-bottom: -15px;
+}
+
+div#page{
+/*    margin-top: 5px;*/
+    margin-left: 5px;
+/*    width: 100%;*/
+    
+}
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+/*    overflow-x: hidden; */
+}
+.footer{
+    background-color: #515A6B; /*using this only for testing #E2FDF7*/ 
+    text-align: center;
+/*    border-top: thick;*/
+    border-top-width: medium;
+    height: 50px;
+    margin-top: 50px;*/
+    width: 101%;
+    margin-bottom: -100px;
+    margin-left: -10px;
+    
+}
+.footer p{
+    padding-top: 15px;
+    padding-bottom: -10px;
+    font-size: 20px;
+    color: white;
+}
+
+.column{
+    margin: 15px;
+    float: left;
+    width: 45%;
+/*    margin-left: 5px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+p a:hover{
+    color: darkblue;
+}
+
+.row{
+    margin-left: auto;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    background-color: white;
+/*
+    margin-left: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+*/
+}
+h1{
+    font-family: 'Black Ops One';
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Black Ops One';
+    font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul img{
+    height: 200px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav.stroke ul li a{
+  position: relative;
+    overflow: hidden;
+}
+nav.stroke ul li a:after,
+nav.stroke ul li a:hover:after {
+    color: white;
+  width: 100%;
+}
+nav.stroke a:hover::before{
+    text-decoration: underline;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+nav.stroke{
+    color: white;
+}
+
+a:nth-child(1):hover ~ .stroke{
+    transform: translate(125px);
+    transition: all 0.4s ease-in-out;
+    background-color: darkblue;
+} 
+
+a:nth-child(1):hover{
+    color: darkblue;
+    text-decoration-line: underline;
+} 
+
+a:nth-child(2):hover ~ .stroke{
+    transform: translate(150px);
+    transition: all 0.4s ease-in-out;
+    background-color: darkblue;
+} 
+a:nth-child(2):hover{
+    color: darkblue;
+    text-decoration-line: underline;
+} 
+a:nth-child(3):hover ~ .stroke{
+    transform: translate(175px);
+    transition: all 0.4s ease-in-out;
+    background-color: darkblue;
+} 
+
+a:nth-child(3):hover{
+    color: darkblue;
+    text-decoration-line: underline;
+} 
+
+a:nth-child(4):hover ~ .stroke{
+    transform: translate(175px);
+    transition: all 0.4s ease-in-out;
+    background-color: darkblue;
+} 
+
+a:nth-child(4):hover{
+    color: darkblue;
+    text-decoration-line: underline;
+} 
+
+a:nth-child(5):hover ~ .stroke{
+    transform: translate(175px);
+    transition: all 0.4s ease-in-out;
+    background-color: darkblue;
+} 
+
+a:nth-child(5):hover{
+    color: darkblue;
+    text-decoration-line: underline;
+} 
+
+
+
+nav li{
+    display: inline;
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-decoration: none;
+}
+nav {
+    background-color: #B2B4CB; /*#CAFFFF*/
+    font-size: 1.4em;  
+    word-spacing: 10px; 
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+/*
+nav li:hover{
+    text-overflow: clip;
+    color: white;
+}
+*/
+
+div.gallery{
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.signup{
+    position: relative;    
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+}
+
+.signup input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.signup input[type=submit] {
+    text-transform: uppercase;
+    outline: 0;
+    background: #444;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login {
+    position: relative;    
+    background: #FFFFFF;
+    width: 360px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login input {
+    position: relative;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.login input[type=submit] {
+    position: relative;
+    text-transform: uppercase;
+    outline: 0;
+    background: #444;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.download input{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: #FF0000;
+    color: black;
+    border: 1px solid #A4C639;
+    border-radius: 10px;
+    font-family: 'Black Ops One';
+}
+
+.download input:hover {
+    color: red;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+/*
+@font-face{
+    font-family: 'blackops';
+    src: url(BlackOpsOne-Regular.tff) format('truetype';
+}
+h2{
+    font-family: blackops;
+}
+*/
+
